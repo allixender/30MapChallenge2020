@@ -15,6 +15,8 @@ Welcome to my 30-day Map Challenge repo
    :maxdepth: 2
    :caption: Contents:
 
+   day-01
+
 
 
 Indices and tables
