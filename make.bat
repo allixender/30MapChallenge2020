@@ -12,6 +12,8 @@ set BUILDDIR=build
 
 if "%1" == "" goto help
 
+if "%1" == "unison" goto unis
+
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
 	echo.
@@ -28,8 +30,13 @@ if errorlevel 9009 (
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 goto end
 
+:unis
+C:\ProgramData\chocolatey\bin\unison-2.48.4-text -auto -batch -force newer build\html\ docs\
+goto end
+
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+goto end
 
 :end
 popd

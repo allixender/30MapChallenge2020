@@ -12,10 +12,11 @@ Welcome to my 30-day Map Challenge repo
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    day-01
+   day-02
 
 
 
