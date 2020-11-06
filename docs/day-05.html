@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day 02 - Lines: Estonian rivers and streams by from Estonian Landboard (Maa-Amet) &#8212; 30-day Map Challenge 2020 2020.01 documentation</title>
+    <title>Day 05: Blue Cornflower distribution Centaurea cyanus &#8212; 30-day Map Challenge 2020 2020.01 documentation</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -37,8 +37,7 @@
     <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Day 03 - Polygons: Reported average through crimes and offense in Tallinn, Estonia" href="day-03.html" />
-    <link rel="prev" title="Day 01 - Points: Estonian State Forest Management Centre (RMK) public recreations sites" href="day-01.html" />
+    <link rel="prev" title="Day 04 - Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons" href="day-04.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
   </head>
@@ -64,8 +63,8 @@
             <a class="nav-link" href="day-01.html">Day 01 - Points: Estonian State Forest Management Centre (RMK) public recreations sites</a>
         </li>
         
-        <li class="nav-item active">
-            <a class="nav-link" href="">Day 02 - Lines: Estonian rivers and streams by from Estonian Landboard (Maa-Amet)</a>
+        <li class="nav-item ">
+            <a class="nav-link" href="day-02.html">Day 02 - Lines: Estonian rivers and streams by from Estonian Landboard (Maa-Amet)</a>
         </li>
         
         <li class="nav-item ">
@@ -76,8 +75,8 @@
             <a class="nav-link" href="day-04.html">Day 04 - Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons</a>
         </li>
         
-        <li class="nav-item ">
-            <a class="nav-link" href="day-05.html">Day 05: Blue Cornflower distribution Centaurea cyanus</a>
+        <li class="nav-item active">
+            <a class="nav-link" href="">Day 05: Blue Cornflower distribution Centaurea cyanus</a>
         </li>
         
         
@@ -120,13 +119,13 @@
         
         
         
+        
+        
+        
+        
+        
+        
           
-        
-        
-        
-        
-        
-        
         
         
       </ul>
@@ -146,7 +145,17 @@
     <ul class="nav section-nav flex-column">
     
         <li class="nav-item toc-entry toc-h2">
-            <a href="#data" class="nav-link">Data</a>
+            <a href="#data" class="nav-link">Data</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#citation" class="nav-link">Citation</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#license" class="nav-link">License</a>
+        </li>
+    
+            </ul>
         </li>
     
     </ul>
@@ -162,26 +171,36 @@
               
               <div>
                 
-  <div class="section" id="day-02-lines-estonian-rivers-and-streams-by-from-estonian-landboard-maa-amet">
-<h1>Day 02 - Lines: Estonian rivers and streams by from Estonian Landboard (Maa-Amet)<a class="headerlink" href="#day-02-lines-estonian-rivers-and-streams-by-from-estonian-landboard-maa-amet" title="Permalink to this headline">¶</a></h1>
-<img alt="_images/day-02-river-lines.png" src="_images/day-02-river-lines.png" />
-<p><a class="reference external" href="https://twitter.com/allixender/status/1323293939865104384">https://twitter.com/allixender/status/1323293939865104384</a></p>
+  <div class="section" id="day-05-blue-cornflower-distribution-centaurea-cyanus">
+<h1>Day 05: Blue Cornflower distribution Centaurea cyanus<a class="headerlink" href="#day-05-blue-cornflower-distribution-centaurea-cyanus" title="Permalink to this headline">¶</a></h1>
+<p>The Blue Cornflower is also a National Estonian symbol.</p>
+<img alt="_images/day-05-blue.png" src="_images/day-05-blue.png" />
+<p><a class="reference external" href="https://twitter.com/allixender/status/1324476330143064064">https://twitter.com/allixender/status/1324476330143064064</a></p>
 <div class="section" id="data">
 <h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
-<p>the layer <em>E_203_vooluveekogu_j</em> (lit. translation: flowing water bodies as <strong>lines</strong>) from the file ETAK_EESTI_GPKG.gpkg,
-<a class="reference external" href="https://geoportaal.maaamet.ee/eng/Maps-and-Data/Estonian-Topographic-Database/Download-Topographic-Data-p618.html">downloaded in Geopackage</a> format (GPKG)  ( 1.2G )
-under <a class="reference external" href="https://geoportaal.maaamet.ee/docs/Avaandmed/Licence-of-open-data-of-Estonian-Land-Board.pdf">Estonian Landboard Open Data License</a>.</p>
-<p>I am using the column <em>tyyp</em> which denotes the “magnitude” of the river, i.e.: 50=river, 40=stream … channel, 10=ditch. The higher the values, the more intense the colour is meant to shine.</p>
-<p><a class="reference external" href="https://github.com/allixender/30MapChallenge2020/tree/main/02">https://github.com/allixender/30MapChallenge2020/tree/main/02</a></p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://geopandas.org/mapping.html">Geopandas</a> for reading the Data and pre-processing</p></li>
-<li><p><a class="reference external" href="https://datashader.org/">Datashader</a> for fancy glow plotting more than 845 000 geometries within a few seconds</p></li>
-</ul>
-<p>What Datashader does, is resampling the hundreds of thousands geometries into a much smaller number of pixels. It is very efficient and optimized,
-using things like Dask and Numba under the hood.
-Datashader itself exposes a comparatively small <a class="reference external" href="https://datashader.org/api.html">API</a>. However, I struggled to integrate the plotting with
-the typical elements I am used from e.g. <em>matplotlib</em> , such as title, legend and geographic coordinates.</p>
-<p>Suggestions welcome.</p>
+<p><a class="reference external" href="https://www.gbif.org/">https://www.gbif.org/</a></p>
+<p>Searched for “Centaurea cyanus”, almost 100.000 specimen locations</p>
+<div class="section" id="citation">
+<h3>Citation<a class="headerlink" href="#citation" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>GBIF.org (05 November 2020) GBIF Occurrence Download <a class="reference external" href="https://doi.org/10.15468/dl.qvcqpv">https://doi.org/10.15468/dl.qvcqpv</a></p>
+</div></blockquote>
+</div>
+<div class="section" id="license">
+<h3>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>CC BY-NC 4.0</p>
+</div></blockquote>
+<p>Other places to look for would be
+are the Estonian repositories PlutoF and Elurikkus (thanks Jaan and Yiming for inspiration and hints to data):</p>
+<p><a class="reference external" href="https://elurikkus.ee/generic-hub/occurrences/search?taxa=+Centaurea+cyanus+&amp;sort=occurrence_date&amp;dir=desc&amp;pageSize=#records">https://elurikkus.ee/generic-hub/occurrences/search?taxa=+Centaurea+cyanus+&amp;sort=occurrence_date&amp;dir=desc&amp;pageSize=#records</a></p>
+<p><a class="reference external" href="https://plutof.ut.ee/#/search">https://plutof.ut.ee/#/search</a>?module=observation&amp;page_size=50&amp;page=1&amp;q=Centaurea+cyanus&amp;parent_taxon=true&amp;columns=name%2Clm%2Cow</p>
+<p>Apparently, a challenge with these data (also the GBIF data) is that, many plant species are surveyed in 10km squares (eg. <a class="reference external" href="https://plutof.ut.ee/#/observation/view/4142487">https://plutof.ut.ee/#/observation/view/4142487</a> ). The coordinates provided then are mostly represented as the centre of the polygon instead of the accurate point of the plant (but there could be also some accurate records).</p>
+<p>A quite simple workflow: geocoding the latitudes and longitudes to shapely points, creating a GeoPandas GeoDataFrame, clipping to Estonia and plotting as a Kernel Density Plot with contours - a functionality kindly provided by <a class="reference external" href="https://residentmario.github.io/geoplot/index.html">Geoplot</a>. As usual, a lot of time goes on testing the styling.</p>
+<p>I probably could have better inverted the blue colormap and adjust the darker blue hues to be still visible. A matter of intuitive interpretation of the image: Is lighter where is more density or where it is darker? And as we talk about the Blue Cornflower, should it be more blue where there were more records? Well, a lesson for another time.</p>
+<p>The notebook can be found here:</p>
+<p><a class="reference external" href="https://github.com/allixender/30MapChallenge2020/tree/main/05">https://github.com/allixender/30MapChallenge2020/tree/main/05</a></p>
+</div>
 </div>
 </div>
 
@@ -191,8 +210,7 @@ the typical elements I am used from e.g. <em>matplotlib</em> , such as title, le
               
               <div class='prev-next-bottom'>
                 
-    <a class='left-prev' id="prev-link" href="day-01.html" title="previous page">Day 01 - Points: Estonian State Forest Management Centre (RMK) public recreations sites</a>
-    <a class='right-next' id="next-link" href="day-03.html" title="next page">Day 03 - Polygons: Reported average through crimes and offense in Tallinn, Estonia</a>
+    <a class='left-prev' id="prev-link" href="day-04.html" title="previous page">Day 04 - Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons</a>
 
               </div>
               

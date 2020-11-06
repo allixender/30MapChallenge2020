@@ -4,8 +4,12 @@ Day 01 - Points: Estonian State Forest Management Centre (RMK) public recreation
 
 .. image:: _static/day-01-points.png
 
+https://twitter.com/allixender/status/1323001798647578625
 
-Data: points of interests from RMK API via downloader:
+Data
+----
+
+- points of interests from RMK API via downloader:
 
 https://github.com/tambeta/rmkmapper
 

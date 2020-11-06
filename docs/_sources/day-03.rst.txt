@@ -4,6 +4,8 @@ Day 03 - Polygons: Reported average through crimes and offense in Tallinn, Eston
 
 .. image:: _static/day-03-polys.png
 
+https://twitter.com/allixender/status/1323710840273543175
+
 Data
 ----
 

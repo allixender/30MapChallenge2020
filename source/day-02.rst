@@ -4,6 +4,7 @@ Day 02 - Lines: Estonian rivers and streams by from Estonian Landboard (Maa-Amet
 
 .. image:: _static/day-02-river-lines.png
 
+https://twitter.com/allixender/status/1323293939865104384
 
 Data
 ----
