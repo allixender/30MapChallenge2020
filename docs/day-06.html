@@ -179,7 +179,7 @@
 <p><strong>Author</strong> MOLA Team</p>
 <p><strong>Originator</strong> Goddard Space Flight Center</p>
 <p>Only loading the DEM with rasterio and then plotting with EarthPy.</p>
-<p>I did a little cheating in QGIS/GDAL though, where I “reprojected” (to give it a working projection for Earth’s geospatial tools) and downsampled it to 1km grid resolution, because my Jupyter notebook would run out of when doing the plotting and hillshading together. I got a funny message in QGIS that informed me that the on-the-fly reporjection doesn’t work, because WGS84 and MARS are not the same celestial bodies :-D Aww, sweet.</p>
+<p>I did a little cheating in QGIS/GDAL though, where I “reprojected” (to give it a working projection for Earth’s geospatial tools) and downsampled it to 1km grid resolution, because my Jupyter notebook would run out of memory when doing the hillshading and plotting together. I got a funny message in QGIS that informed me that the on-the-fly reprojection doesn’t work, because WGS84 and MARS are not the same celestial bodies :-D Aww, sweet.</p>
 <p><a class="reference external" href="https://earthpy.readthedocs.io/en/latest/gallery_vignettes/plot_dem_hillshade.html">https://earthpy.readthedocs.io/en/latest/gallery_vignettes/plot_dem_hillshade.html</a></p>
 <p><a class="reference external" href="https://astrogeology.usgs.gov/search/details/Phobos/MarsExpress/HRSC/Phobos_ME_HRSC_ClrShade_Global_2ppd/cub">https://astrogeology.usgs.gov/search/details/Phobos/MarsExpress/HRSC/Phobos_ME_HRSC_ClrShade_Global_2ppd/cub</a></p>
 <p>The notebook can be found here:</p>
