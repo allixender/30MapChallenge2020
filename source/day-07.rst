@@ -1,0 +1,26 @@
+Day 07 - Green
+=================================================
+
+.. image:: _static/day-07-green.png
+
+https://twitter.com/allixender/status/1324670496747696128
+
+Data
+----
+
+OpenStreetMap
+
+.. note::
+
+    OpenStreetMap® is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF).
+
+    You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors. If you alter or build upon our data, you may distribute the result only under the same licence. The full legal code explains your rights and responsibilities.
+
+    Our documentation is licensed under the Creative Commons Attribution-ShareAlike 2.0 license (CC BY-SA 2.0).
+
+
+`OSMnx <https://osmnx.readthedocs.io/en/stable/index.html>`_ is a Python package to work with street networks and other spatial data from OpenStreetMap: retrieve, model, analyze, and visualize street networks as well as other infrastructure types, points of interest, building footprints, speed/travel time, elevation, and more.
+
+Credits to `Geoff Boeing <https://github.com/gboeing/osmnx-examples>`_ - his repo contains usage examples and feature demonstrations on how to use OSMNX:
+
+- https://github.com/gboeing/osmnx-examples/blob/master/notebooks/10-building-footprints.ipynb
