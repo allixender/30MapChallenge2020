@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day 07 - Green &#8212; 30-day Map Challenge 2020 2020.01 documentation</title>
+    <title>Day 08 - Yellow Global mining areas &#8212; 30-day Map Challenge 2020 2020.01 documentation</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -37,8 +37,7 @@
     <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Day 08 - Yellow Global mining areas" href="day-08.html" />
-    <link rel="prev" title="Day 06 - Red DEM shading of Mars (the red planet)" href="day-06.html" />
+    <link rel="prev" title="Day 07 - Green" href="day-07.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
   </head>
@@ -84,12 +83,12 @@
             <a class="nav-link" href="day-06.html">Day 06 - Red DEM shading of Mars (the red planet)</a>
         </li>
         
-        <li class="nav-item active">
-            <a class="nav-link" href="">Day 07 - Green</a>
+        <li class="nav-item ">
+            <a class="nav-link" href="day-07.html">Day 07 - Green</a>
         </li>
         
-        <li class="nav-item ">
-            <a class="nav-link" href="day-08.html">Day 08 - Yellow Global mining areas</a>
+        <li class="nav-item active">
+            <a class="nav-link" href="">Day 08 - Yellow Global mining areas</a>
         </li>
         
         
@@ -142,9 +141,9 @@
         
         
         
+        
+        
           
-        
-        
         
         
       </ul>
@@ -180,24 +179,21 @@
               
               <div>
                 
-  <div class="section" id="day-07-green">
-<h1>Day 07 - Green<a class="headerlink" href="#day-07-green" title="Permalink to this headline">¶</a></h1>
-<img alt="_images/day-07-green.png" src="_images/day-07-green.png" />
-<p><a class="reference external" href="https://twitter.com/allixender/status/1325115062160420865">https://twitter.com/allixender/status/1325115062160420865</a></p>
+  <div class="section" id="day-08-yellow-global-mining-areas">
+<h1>Day 08 - Yellow Global mining areas<a class="headerlink" href="#day-08-yellow-global-mining-areas" title="Permalink to this headline">¶</a></h1>
+<img alt="_images/day-08-yellow.png" src="_images/day-08-yellow.png" />
 <div class="section" id="data">
 <h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
-<p>OpenStreetMap</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>OpenStreetMap® is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF).</p>
-<p>You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors. If you alter or build upon our data, you may distribute the result only under the same licence. The full legal code explains your rights and responsibilities.</p>
-<p>Our documentation is licensed under the Creative Commons Attribution-ShareAlike 2.0 license (CC BY-SA 2.0).</p>
-</div>
-<p><a class="reference external" href="https://osmnx.readthedocs.io/en/stable/index.html">OSMnx</a> is a Python package to work with street networks and other spatial data from OpenStreetMap: retrieve, model, analyze, and visualize street networks as well as other infrastructure types, points of interest, building footprints, speed/travel time, elevation, and more.</p>
-<p>Credits to <a class="reference external" href="https://github.com/gboeing/osmnx-examples">Geoff Boeing</a> - his repo contains usage examples and feature demonstrations on how to use OSMNX:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://github.com/gboeing/osmnx-examples/blob/master/notebooks/10-building-footprints.ipynb">https://github.com/gboeing/osmnx-examples/blob/master/notebooks/10-building-footprints.ipynb</a></p></li>
-</ul>
+<p>Maus, V., Giljum, S., Gutschlhofer, J. et al. A global-scale data set of mining areas. Sci Data 7, 289 (2020). <a class="reference external" href="https://doi.org/10.1038/s41597-020-00624-w">https://doi.org/10.1038/s41597-020-00624-w</a></p>
+<p><a class="reference external" href="https://www.nature.com/articles/s41597-020-00624-w">https://www.nature.com/articles/s41597-020-00624-w</a></p>
+<p><a class="reference external" href="https://doi.pangaea.de/10.1594/PANGAEA.910894">https://doi.pangaea.de/10.1594/PANGAEA.910894</a></p>
+<p>Then I generated the ISEAH7 DGGS at level 4, ca. 24000 hexagons, and saved as GeoPackage. I did this with the help of a little library I am working on:</p>
+<p><a class="reference external" href="https://github.com/allixender/dggrid4py/">https://github.com/allixender/dggrid4py/</a></p>
+<p>It uses GeoPandas and DGGRID - a free software program for creating and manipulating Discrete Global Grids. DGGRID version 7.0 was released in September, 2019.</p>
+<p><a class="reference external" href="https://www.discreteglobalgrids.org/software/">https://www.discreteglobalgrids.org/software/</a></p>
+<p>Eventually I used <a class="reference external" href="https://geoviews.org/">GeoViews</a> to provide a static orthographic (say globe) basemap view.</p>
+<p>The notebook is provided here:</p>
+<p><a class="reference external" href="https://github.com/allixender/30MapChallenge2020/tree/main/08">https://github.com/allixender/30MapChallenge2020/tree/main/08</a></p>
 </div>
 </div>
 
@@ -207,8 +203,7 @@
               
               <div class='prev-next-bottom'>
                 
-    <a class='left-prev' id="prev-link" href="day-06.html" title="previous page">Day 06 - Red DEM shading of Mars (the red planet)</a>
-    <a class='right-next' id="next-link" href="day-08.html" title="next page">Day 08 - Yellow Global mining areas</a>
+    <a class='left-prev' id="prev-link" href="day-07.html" title="previous page">Day 07 - Green</a>
 
               </div>
               

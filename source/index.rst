@@ -22,6 +22,7 @@ Welcome to my 30-day Map Challenge repo
    day-05
    day-06
    day-07
+   day-08
 
 
 
