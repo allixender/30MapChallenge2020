@@ -3,6 +3,8 @@ Day 08 - Yellow Global mining areas
 
 .. image:: _static/day-08-yellow.png
 
+https://twitter.com/allixender/status/1325532260171444229
+
 Data
 ----
 
