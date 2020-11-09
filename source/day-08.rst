@@ -14,7 +14,7 @@ https://www.nature.com/articles/s41597-020-00624-w
 
 https://doi.pangaea.de/10.1594/PANGAEA.910894
 
-Then I generated the ISEA4T DGGS at level 5, ca. 86000 triangles, and saved as GeoPackage. I did this with the help of a little library I am working on:
+Then I generated the ISEA4T DGGS at level 5, ca. 20000 triangles, and saved as GeoPackage. I did this with the help of a little library I am working on:
 
 https://github.com/allixender/dggrid4py/
 
@@ -27,6 +27,4 @@ Then I did a spatial left join (based on intersect) to aggregate the mining poly
 
 Eventually I used `GeoViews <https://geoviews.org/>`_ to provide a static orthographic (say globe) basemap view.
 
-The notebook is provided here:
-
-https://github.com/allixender/30MapChallenge2020/tree/main/08
+The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/08/day-08.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/08>`_.
