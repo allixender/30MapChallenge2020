@@ -37,6 +37,7 @@
     <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Day 04 - Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons" href="day-10.html" />
     <link rel="prev" title="Day 08 - Yellow Global mining areas" href="day-08.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -84,7 +85,7 @@
         </li>
         
         <li class="nav-item ">
-            <a class="nav-link" href="day-07.html">Day 07 - Green</a>
+            <a class="nav-link" href="day-07.html">Day 07 - Green Radar Style Buildings Footprint</a>
         </li>
         
         <li class="nav-item ">
@@ -93,6 +94,10 @@
         
         <li class="nav-item active">
             <a class="nav-link" href="">Day 09 - Monochrome Stream Delineation</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="day-10.html">Day 04 - Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons</a>
         </li>
         
         
@@ -152,6 +157,8 @@
           
         
         
+        
+        
       </ul>
   
   </nav>
@@ -188,17 +195,19 @@
   <div class="section" id="day-09-monochrome-stream-delineation">
 <h1>Day 09 - Monochrome Stream Delineation<a class="headerlink" href="#day-09-monochrome-stream-delineation" title="Permalink to this headline">¶</a></h1>
 <img alt="_images/day-09_monochrome.png" src="_images/day-09_monochrome.png" />
-<p><a class="reference external" href="https://twitter.com/allixender/status/1325532260171444229">https://twitter.com/allixender/status/1325532260171444229</a></p>
+<p><a class="reference external" href="https://twitter.com/allixender/status/1325843393050710016">https://twitter.com/allixender/status/1325843393050710016</a></p>
 <div class="section" id="data">
 <h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
-<p>The DEM is a clipped and reprojected GeoTiff fro mthe awesome MERIT-Hydro global hydrologically pre-processed DEM:</p>
+<p>The DEM is a pre-clipped and reprojected (in QGIS) GeoTiff from the awesome MERIT-Hydro global hydrologically pre-processed DEM:</p>
 <p><a class="reference external" href="http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/">http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/</a></p>
-<p>The an actual fully scripted stream delineation in Python with PySheds:</p>
+<p>It would be quite straight-forward to do the clipping and reprojecting in Rasterio, too (e.g. <a class="reference external" href="https://kodu.ut.ee/~kmoch/geopython2019/L4/raster.html#reproject-a-raster">here</a>).</p>
+<p>But now we do an actual fully scripted stream delineation in Python with PySheds:</p>
 <p><a class="reference external" href="https://github.com/mdbartos/pysheds">https://github.com/mdbartos/pysheds</a></p>
 <p><a class="reference external" href="https://www.hatarilabs.com/ih-en/watershed-and-stream-network-delimitation-with-python-and-pysheds-tutorial">https://www.hatarilabs.com/ih-en/watershed-and-stream-network-delimitation-with-python-and-pysheds-tutorial</a></p>
 <p>Hillshade with Earthpy: <a class="reference external" href="https://earthpy.readthedocs.io/en/latest">https://earthpy.readthedocs.io/en/latest</a></p>
 <p>Plotting it all together wit hsome Seaborn and Matplotlib color tinkering.</p>
 <p>The Jupyter notebook <a class="reference external" href="https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/09/day-09.ipynb">(view here)</a> is provided in my <a class="reference external" href="https://github.com/allixender/30MapChallenge2020/tree/main/09">GitHub repo</a>.</p>
+<p>It would be interesting to redo the exercise with e.g. <a class="reference external" href="https://github.com/natcap/pygeoprocessing">pygeoprocessing</a></p>
 </div>
 </div>
 
@@ -209,6 +218,7 @@
               <div class='prev-next-bottom'>
                 
     <a class='left-prev' id="prev-link" href="day-08.html" title="previous page">Day 08 - Yellow Global mining areas</a>
+    <a class='right-next' id="next-link" href="day-10.html" title="next page">Day 04 - Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons</a>
 
               </div>
               

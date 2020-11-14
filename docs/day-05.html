@@ -85,7 +85,7 @@
         </li>
         
         <li class="nav-item ">
-            <a class="nav-link" href="day-07.html">Day 07 - Green</a>
+            <a class="nav-link" href="day-07.html">Day 07 - Green Radar Style Buildings Footprint</a>
         </li>
         
         <li class="nav-item ">
@@ -94,6 +94,10 @@
         
         <li class="nav-item ">
             <a class="nav-link" href="day-09.html">Day 09 - Monochrome Stream Delineation</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="day-10.html">Day 04 - Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons</a>
         </li>
         
         
@@ -143,6 +147,8 @@
         
         
           
+        
+        
         
         
         
@@ -223,8 +229,7 @@ are the Estonian repositories PlutoF and Elurikkus (thanks Jaan and Yiming for i
 <p>Apparently, a challenge with these data (also the GBIF data) is that, many plant species are surveyed in 10km squares (eg. <a class="reference external" href="https://plutof.ut.ee/#/observation/view/4142487">https://plutof.ut.ee/#/observation/view/4142487</a> ). The coordinates provided then are mostly represented as the centre of the polygon instead of the accurate point of the plant (but there could be also some accurate records).</p>
 <p>A quite simple workflow: geocoding the latitudes and longitudes to shapely points, creating a GeoPandas GeoDataFrame, clipping to Estonia and plotting as a Kernel Density Plot with contours - a functionality kindly provided by <a class="reference external" href="https://residentmario.github.io/geoplot/index.html">Geoplot</a>. As usual, a lot of time goes on testing the styling.</p>
 <p>I probably could have better inverted the blue colormap and adjust the darker blue hues to be still visible. A matter of intuitive interpretation of the image: Is lighter where is more density or where it is darker? And as we talk about the Blue Cornflower, should it be more blue where there were more records? Well, a lesson for another time.</p>
-<p>The notebook can be found here:</p>
-<p><a class="reference external" href="https://github.com/allixender/30MapChallenge2020/tree/main/05">https://github.com/allixender/30MapChallenge2020/tree/main/05</a></p>
+<p>The Jupyter notebook <a class="reference external" href="https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/05/day-05.ipynb">(view here)</a> is provided in my <a class="reference external" href="https://github.com/allixender/30MapChallenge2020/tree/main/05">GitHub repo</a>.</p>
 </div>
 </div>
 </div>

@@ -15,7 +15,7 @@ under `Estonian Landboard Open Data License <https://geoportaal.maaamet.ee/docs/
 
 I am using the column *tyyp* which denotes the "magnitude" of the river, i.e.: 50=river, 40=stream ... channel, 10=ditch. The higher the values, the more intense the colour is meant to shine.
 
-https://github.com/allixender/30MapChallenge2020/tree/main/02
+The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/02/day-02.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/02>`_.
 
 - `Geopandas <https://geopandas.org/mapping.html>`_ for reading the Data and pre-processing
 - `Datashader <https://datashader.org/>`_ for fancy glow plotting more than 845 000 geometries within a few seconds

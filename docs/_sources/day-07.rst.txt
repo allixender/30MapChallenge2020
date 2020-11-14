@@ -1,5 +1,5 @@
-Day 07 - Green
-==============
+Day 07 - Green Radar Style Buildings Footprint
+==============================================
 
 .. image:: _static/day-07-green.png
 
@@ -24,3 +24,5 @@ OpenStreetMap
 Credits to `Geoff Boeing <https://github.com/gboeing/osmnx-examples>`_ - his repo contains usage examples and feature demonstrations on how to use OSMNX:
 
 - https://github.com/gboeing/osmnx-examples/blob/master/notebooks/10-building-footprints.ipynb
+
+The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/07/day-07.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/07>`_.

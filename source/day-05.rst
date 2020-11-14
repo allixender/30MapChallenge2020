@@ -37,6 +37,4 @@ A quite simple workflow: geocoding the latitudes and longitudes to shapely point
 
 I probably could have better inverted the blue colormap and adjust the darker blue hues to be still visible. A matter of intuitive interpretation of the image: Is lighter where is more density or where it is darker? And as we talk about the Blue Cornflower, should it be more blue where there were more records? Well, a lesson for another time.
 
-The notebook can be found here:
-
-https://github.com/allixender/30MapChallenge2020/tree/main/05
+The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/05/day-05.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/05>`_.

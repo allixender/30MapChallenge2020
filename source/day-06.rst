@@ -26,6 +26,4 @@ https://earthpy.readthedocs.io/en/latest/gallery_vignettes/plot_dem_hillshade.ht
 
 https://astrogeology.usgs.gov/search/details/Phobos/MarsExpress/HRSC/Phobos_ME_HRSC_ClrShade_Global_2ppd/cub
 
-The notebook can be found here:
-
-https://github.com/allixender/30MapChallenge2020/tree/main/06
+The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/06/day-06.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/06>`_.

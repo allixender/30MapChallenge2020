@@ -25,6 +25,4 @@ Most challenging was the pre-processing of the crime dataset. As the polygons (s
 
 Again the main work is done with Pandas/GeoPandas and matplotlib.
 
-The notebook is provided here:
-
-https://github.com/allixender/30MapChallenge2020/tree/main/03
+The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/03/day-03.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/03>`_.
