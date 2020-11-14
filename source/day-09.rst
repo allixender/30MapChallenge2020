@@ -1,12 +1,12 @@
 Day 09 - Monochrome Stream Delineation
-======================================
+--------------------------------------
 
 .. image:: _static/day-09_monochrome.png
 
 https://twitter.com/allixender/status/1325843393050710016
 
 Data
-----
+~~~~
 
 The DEM is a pre-clipped and reprojected (in QGIS) GeoTiff from the awesome MERIT-Hydro global hydrologically pre-processed DEM:
 

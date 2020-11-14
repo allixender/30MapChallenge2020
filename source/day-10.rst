@@ -1,12 +1,12 @@
 Day 10 - Grid comparison of different global grid systems
-=========================================================
+---------------------------------------------------------
 
 https://twitter.com/allixender/status/1327586063829839872
 
 .. image:: _static/day-10-grids.png
 
 Data
-----
+~~~~
 
 No real data, but grid generators:  I generated the ISEA4H (hexagons), ISEA4T (triangles) and saved as GeoPackage. I did this with the help of a little library I am working on:
 

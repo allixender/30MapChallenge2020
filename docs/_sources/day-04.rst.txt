@@ -1,5 +1,5 @@
 Day 04 - Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons
-===============================================================================
+-------------------------------------------------------------------------------
 
 #30DayMapChallenge 4 - Hexagons: #NASAsedac #GPWv4 global population density sampled into proper #DGGS in #ISEAH7 (level 4) projection with #DGGRID, #dggrid4py, #rasterio / #rasterstats and @geopandas and visualised with #GeoViews @holoviz_org
 
@@ -8,7 +8,7 @@ https://twitter.com/allixender/status/1324055326111485959
 .. image:: _static/day-04-hexa.png
 
 Data
-----
+~~~~
 
 NASA Sedac GPWv4 global population density:
 

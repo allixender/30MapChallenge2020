@@ -1,12 +1,12 @@
 Day 08 - Yellow Global mining areas
-===================================
+-----------------------------------
 
 .. image:: _static/day-08-yellow.png
 
 https://twitter.com/allixender/status/1325532260171444229
 
 Data
-----
+~~~~
 
 Maus, V., Giljum, S., Gutschlhofer, J. et al. A global-scale data set of mining areas. Sci Data 7, 289 (2020). https://doi.org/10.1038/s41597-020-00624-w
 

@@ -1,5 +1,5 @@
 Day 02 - Lines: Estonian rivers and streams by from Estonian Landboard (Maa-Amet)
-=======================================================================================
+---------------------------------------------------------------------------------
 
 
 .. image:: _static/day-02-river-lines.png
@@ -7,7 +7,7 @@ Day 02 - Lines: Estonian rivers and streams by from Estonian Landboard (Maa-Amet
 https://twitter.com/allixender/status/1323293939865104384
 
 Data
-----
+~~~~
 
 the layer *E_203_vooluveekogu_j* (lit. translation: flowing water bodies as **lines**) from the file ETAK_EESTI_GPKG.gpkg,
 `downloaded in Geopackage <https://geoportaal.maaamet.ee/eng/Maps-and-Data/Estonian-Topographic-Database/Download-Topographic-Data-p618.html>`_ format (GPKG)  ( 1.2G )

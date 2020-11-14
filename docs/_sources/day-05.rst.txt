@@ -1,5 +1,5 @@
 Day 05 - Blue Cornflower distribution Centaurea cyanus
-======================================================
+------------------------------------------------------
 
 The Blue Cornflower is also a National Estonian symbol.
 
@@ -8,7 +8,7 @@ The Blue Cornflower is also a National Estonian symbol.
 https://twitter.com/allixender/status/1324476330143064064
 
 Data
-----
+~~~~
 
 https://www.gbif.org/
 

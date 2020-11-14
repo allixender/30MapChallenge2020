@@ -1,5 +1,5 @@
 Day 03 - Polygons: Reported average through crimes and offense in Tallinn, Estonia
-==================================================================================
+----------------------------------------------------------------------------------
 
 
 .. image:: _static/day-03-polys.png
@@ -7,7 +7,7 @@ Day 03 - Polygons: Reported average through crimes and offense in Tallinn, Eston
 https://twitter.com/allixender/status/1323710840273543175
 
 Data
-----
+~~~~
 
 It is a dataset provided by the Information Technology and Development Center of the Ministry of the Interior of Estonia  (SMIT).  SMIT is the largest IT institution in the country, which creates and manages information systems necessary for saving lives and ensuring internal security. The data contains anonymised records of crimes, felonies and other offenses against the law.
 The data is binned into squares of either 500mx500m or 1000mx1000m.

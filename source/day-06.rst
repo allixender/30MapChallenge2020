@@ -1,12 +1,12 @@
 Day 06 - Red DEM shading of Mars (the red planet)
-=================================================
+-------------------------------------------------
 
 .. image:: _static/day-06-red.png
 
 https://twitter.com/allixender/status/1324670496747696128
 
 Data
-----
+~~~~
 
 Mars MGS MOLA DEM 463m v2
 

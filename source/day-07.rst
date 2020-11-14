@@ -1,12 +1,12 @@
 Day 07 - Green Radar Style Buildings Footprint
-==============================================
+----------------------------------------------
 
 .. image:: _static/day-07-green.png
 
 https://twitter.com/allixender/status/1325115062160420865
 
 Data
-----
+~~~~
 
 OpenStreetMap
 
