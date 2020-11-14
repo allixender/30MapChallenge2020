@@ -1,7 +1,7 @@
 Day 10 - Grid comparison of different global grid systems
 =========================================================
 
-https://twitter.com/allixender/status/1324055326111485959
+https://twitter.com/allixender/status/1327586063829839872
 
 .. image:: _static/day-10-grids.png
 
@@ -16,7 +16,7 @@ It uses GeoPandas and DGGRID - a free software program for creating and manipula
 
 https://www.discreteglobalgrids.org/software/
 
-Then I used `Uber H3 <https://eng.uber.com/h3/>`_ and MLandcare Cresearch/Manaaki Whenua `RhealPixDGGS-py <https://github.com/manaakiwhenua/rhealpixdggs-py>`_.
+Then I used `Uber H3 <https://eng.uber.com/h3/>`_ and Landcare Research/Manaaki Whenua `RhealPixDGGS-py <https://github.com/manaakiwhenua/rhealpixdggs-py>`_.
 
 Each of these 4 grid systems I generated two subsequent resolutions to depict the "aperture" and parent child spatial relation ships.
 
