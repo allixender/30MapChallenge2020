@@ -3,7 +3,7 @@ Day 12 - Map not made with GIS software
 
 .. image:: _static/day-12-ascii-globe.png
 
-https://twitter.com/tjukanov/status/1311568912950140930
+https://twitter.com/allixender/status/1327989531287629824
 
 Data
 ~~~~
