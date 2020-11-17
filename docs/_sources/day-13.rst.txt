@@ -3,7 +3,7 @@ Day 13 - Raster Interpolation
 
 .. image:: _static/day-13-raster.png
 
-https://twitter.com/tjukanov/status/1311568912950140930
+https://twitter.com/allixender/status/1328758877731647488
 
 Data
 ~~~~
