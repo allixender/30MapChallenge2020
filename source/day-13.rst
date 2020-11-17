@@ -1,5 +1,5 @@
-Day 13 - Raster
----------------
+Day 13 - Raster Interpolation
+-----------------------------
 
 .. image:: _static/day-13-raster.png
 
