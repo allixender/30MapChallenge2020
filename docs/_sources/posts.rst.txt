@@ -17,10 +17,10 @@ Posts
    day-10
    day-11
    day-12
-
-.. 
-   _commented out
    day-13
+
+..
+   _commented out
    day-14
    day-15
    day-16
