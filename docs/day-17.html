@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day 17 - Historical Map &#8212; 30-day Map Challenge 2020 2020.01 documentation</title>
+    <title>Day 16-17 - Historical Maps of the Estonian Island of Vormsi &#8212; 30-day Map Challenge 2020 2020.01 documentation</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -37,6 +37,8 @@
     <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Day 20 - Population Cartogram of Estonian municipalities" href="day-20.html" />
+    <link rel="prev" title="Day 15 - Connections: The countires of the river Danube in Europe" href="day-15.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
   </head>
@@ -58,7 +60,7 @@
       <ul id="navbar-main-elements" class="navbar-nav mr-auto">
         
         
-        <li class="nav-item ">
+        <li class="nav-item active">
             <a class="nav-link" href="posts.html">Posts</a>
         </li>
         
@@ -100,6 +102,104 @@
     <ul class="nav bd-sidenav">
         
         
+          
+            
+                <li class="">
+                    <a href="day-01.html">Day 01 - Points: Estonian State Forest Management Centre (RMK) public recreations sites</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-02.html">Day 02 - Lines: Estonian rivers and streams by from Estonian Landboard (Maa-Amet)</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-03.html">Day 03 - Polygons: Reported average through crimes and offense in Tallinn, Estonia</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-04.html">Day 04 - Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-05.html">Day 05 - Blue Cornflower distribution Centaurea cyanus</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-06.html">Day 06 - Red DEM shading of Mars (the red planet)</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-07.html">Day 07 - Green Radar Style Buildings Footprint</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-08.html">Day 08 - Yellow Global mining areas</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-09.html">Day 09 - Monochrome Stream Delineation</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-10.html">Day 10 - Grid comparison of different global grid systems</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-11.html">Day 11 - 3D Elevation as scientific surface plot</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-12.html">Day 12 - Map not made with GIS software</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-13.html">Day 13 - Raster Interpolation of Temperature</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-15.html">Day 15 - Connections: The countires of the river Danube in Europe</a>
+                </li>
+            
+          
+            
+                <li class="active">
+                    <a href="">Day 16-17 - Historical Maps of the Estonian Island of Vormsi</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-20.html">Day 20 - Population Cartogram of Estonian municipalities</a>
+                </li>
+            
+          
+        
         
       </ul>
   
@@ -134,13 +234,18 @@
               
               <div>
                 
-  <div class="section" id="day-17-historical-map">
-<h1>Day 17 - Historical Map<a class="headerlink" href="#day-17-historical-map" title="Permalink to this headline">¶</a></h1>
-<img alt="_images/topi_orig.jpg" src="_images/topi_orig.jpg" />
+  <div class="section" id="day-16-17-historical-maps-of-the-estonian-island-of-vormsi">
+<h1>Day 16-17 - Historical Maps of the Estonian Island of Vormsi<a class="headerlink" href="#day-16-17-historical-maps-of-the-estonian-island-of-vormsi" title="Permalink to this headline">¶</a></h1>
+<img alt="_images/day-17-historical.gif" src="_images/day-17-historical.gif" />
 <p><a class="reference external" href="https://twitter.com/tjukanov/status/1311568912950140930">https://twitter.com/tjukanov/status/1311568912950140930</a></p>
 <div class="section" id="data">
 <h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
-<p>WMS static from Maaamet, owslib?</p>
+<p>Estonian Land Board / Maa-Amet hosts a rich collection of old and new layers available as WMS service.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://geoportaal.maaamet.ee/eng/Services/Public-WMS-Service-p346.html">https://geoportaal.maaamet.ee/eng/Services/Public-WMS-Service-p346.html</a></p></li>
+</ul>
+<p>I am using the crafty <a class="reference external" href="https://geopython.github.io/OWSLib/#wms">OWSlib package</a> to download images for the same extent (Vormsi island, Estonia)</p>
+<p>Then I use Python <code class="docutils literal notranslate"><span class="pre">imageio</span></code> to join them to a GIF file.</p>
 <p>The Jupyter notebook <a class="reference external" href="https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/17/day-17.ipynb">(view here)</a> is provided in my <a class="reference external" href="https://github.com/allixender/30MapChallenge2020/tree/main/17">GitHub repo</a>.</p>
 </div>
 </div>
@@ -151,6 +256,8 @@
               
               <div class='prev-next-bottom'>
                 
+    <a class='left-prev' id="prev-link" href="day-15.html" title="previous page">Day 15 - Connections: The countires of the river Danube in Europe</a>
+    <a class='right-next' id="next-link" href="day-20.html" title="next page">Day 20 - Population Cartogram of Estonian municipalities</a>
 
               </div>
               
