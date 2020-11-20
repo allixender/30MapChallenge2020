@@ -18,6 +18,7 @@ Posts
    day-11
    day-12
    day-13
+   day-20
 
 ..
    _commented out
@@ -27,7 +28,6 @@ Posts
    day-17
    day-18
    day-19
-   day-20
    day-21
    day-22
    day-23

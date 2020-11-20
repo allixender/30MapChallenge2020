@@ -8,6 +8,6 @@ https://twitter.com/tjukanov/status/1311568912950140930
 Data
 ~~~~
 
-Geopandas plot NoData ? NULL Island ?
+Geopandas plot NoData ?
 
-The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/18/day-18.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/18>`_.
+The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/98/day-19.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/19>`_.
