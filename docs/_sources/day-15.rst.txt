@@ -1,13 +1,17 @@
 Day 15 - Connections
 ------------------------------------------------
 
-.. image:: _static/topi_orig.jpg
+.. image:: _static/day-15-connections.png
 
 https://twitter.com/tjukanov/status/1311568912950140930
 
 Data
 ~~~~
 
-cities/countries that are connected trough water - Donau Europe?
+Countries that are connected trough water - the river Danube in Europe?
 
-The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/14/day-14.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/14>`_.
+Natural Earth Countries and Rivers/Lakes
+
+https://www.naturalearthdata.com/
+
+The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/15/day-15.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/15>`_.

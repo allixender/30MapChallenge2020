@@ -128,6 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+
+# collating all data now in data_archive
+data_archive/
+
 gpw_v4_population_density_rev11_2020_2pt5_min.tif
 gpw_v4_population_density_rev11_2020_2pt5_min_tif_readme.txt
 gpw-v4-population-density-rev11_2020_2pt5_min_tif.zip

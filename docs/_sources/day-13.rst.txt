@@ -1,5 +1,5 @@
-Day 13 - Raster Interpolation
------------------------------
+Day 13 - Raster Interpolation of Temperature
+--------------------------------------------
 
 .. image:: _static/day-13-raster.png
 

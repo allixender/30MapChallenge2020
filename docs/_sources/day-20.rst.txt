@@ -3,7 +3,7 @@ Day 20 - Population Cartogram of Estonian municipalities
 
 .. image:: _static/day-20-population.png
 
-https://twitter.com/tjukanov/status/1311568912950140930
+https://twitter.com/allixender/status/1329692102238855168
 
 Data
 ~~~~
