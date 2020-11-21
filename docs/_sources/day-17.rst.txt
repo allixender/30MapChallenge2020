@@ -3,7 +3,7 @@ Day 16-17 - Historical Maps of the Estonian Island of Vormsi
 
 .. image:: _static/day-17-historical.gif
 
-https://twitter.com/tjukanov/status/1311568912950140930
+https://twitter.com/allixender/status/1329815977941479426
 
 Data
 ~~~~

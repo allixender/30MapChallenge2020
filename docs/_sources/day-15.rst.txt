@@ -1,4 +1,4 @@
-Day 15 - Connections: The countires of the river Danube in Europe
+Day 15 - Connections: The countries of the river Danube in Europe
 -----------------------------------------------------------------
 
 .. image:: _static/day-15-connections.png
