@@ -5,7 +5,7 @@ Day 15 - Connections: The countries of the river Danube in Europe
 
 Curiously, Moldova is about 1.6 km away from Danube river in this dataset. Might be a matter of precision.
 
-https://twitter.com/tjukanov/status/1311568912950140930
+https://twitter.com/allixender/status/1330072611418755072
 
 Data
 ~~~~
