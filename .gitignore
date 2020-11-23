@@ -181,3 +181,6 @@ streams.geojson
 dggrid_layers.gpkg
 13/kdtree_rasterout1.tif
 13/ilmateenistus_airtemp_stations*
+
+14/*.gzip
+14/*.csv

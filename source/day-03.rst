@@ -1,5 +1,5 @@
-Day 03 - Polygons: Reported average through crimes and offense in Tallinn, Estonia
-----------------------------------------------------------------------------------
+Day 03 - Polygons: Reported average damage through crimes and offense in Tallinn, Estonia
+-----------------------------------------------------------------------------------------
 
 
 .. image:: _static/day-03-polys.png
