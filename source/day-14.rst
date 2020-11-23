@@ -19,7 +19,7 @@ The name of the station is followed by a homogeneous reference period. Long-term
 
 **Testing Mann-Kendall python package to calculate trend for flow timeseries**
 
-- https://www.researchgate.net/publication/334688255_pyMannKendall_a_python_package_for_non_parametric_Mann_Kendall_family_of_trend_tests
+- https://joss.theoj.org/papers/10.21105/joss.01556
 - https://pypi.org/project/pymannkendall/
 
 
