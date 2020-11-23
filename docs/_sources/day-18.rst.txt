@@ -3,7 +3,7 @@ Day 18 - Landuse Copernicus C3S Landcover for Estonia
 
 .. image:: _static/day-18-landcover.png
 
-https://twitter.com/tjukanov/status/1311568912950140930
+https://twitter.com/allixender/status/1330961744999698432
 
 Data
 ~~~~
