@@ -40,3 +40,21 @@ The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixende
     200#Bare areas
     210#Water bodies
     220#Permanent snow and ice
+
+GDAL extract layer band from netcdf:
+
+.. code::
+
+    gdalwarp -of Gtiff -co COMPRESS=LZW -co TILED=YES -ot Byte -r mode -te -180.0000000 -90.0000000 180.0000000 90.0000000 -tr 0.002777777777778 0.002777777777778 -t_srs EPSG:4326 NETCDF:C3S-LC-L4-LCCS-Map-300m-P1Y-2018-v2.1.1.nc:lccs_class C3S-LC-L4-LCCS-Map-300m-P1Y-2018-v2.1.1_mode.tif
+
+    gdalwarp -of Gtiff -co COMPRESS=LZW -co TILED=YES -ot Byte -r mode -te -180.0000000 -90.0000000 180.0000000 90.0000000 -tr 0.002777777777778 0.002777777777778 -t_srs EPSG:4326 NETCDF:C3S-LC-L4-LCCS-Map-300m-P1Y-2016-v2.1.1.nc:lccs_class C3S-LC-L4-LCCS-Map-300m-P1Y-2016-v2.1.1_mode.tif
+
+    gdalwarp -of Gtiff -co COMPRESS=LZW -co TILED=YES -ot Byte -r mode -te -180.0000000 -90.0000000 180.0000000 90.0000000 -tr 0.002777777777778 0.002777777777778 -t_srs EPSG:4326 NETCDF:ESACCI-LC-L4-LCCS-Map-300m-P1Y-2006-v2.0.7cds.nc:lccs_class ESACCI-LC-L4-LCCS-Map-300m-P1Y-2006-v2.0.7cds_mode.tif
+
+    gdalwarp -of Gtiff -co COMPRESS=LZW -co TILED=YES -ot Byte -r mode -te -180.0000000 -90.0000000 180.0000000 90.0000000 -tr 0.002777777777778 0.002777777777778 -t_srs EPSG:4326 NETCDF:ESACCI-LC-L4-LCCS-Map-300m-P1Y-2008-v2.0.7cds.nc:lccs_class ESACCI-LC-L4-LCCS-Map-300m-P1Y-2008-v2.0.7cds_mode.tif
+
+    gdalwarp -of Gtiff -co COMPRESS=LZW -co TILED=YES -ot Byte -r mode -te -180.0000000 -90.0000000 180.0000000 90.0000000 -tr 0.002777777777778 0.002777777777778 -t_srs EPSG:4326 NETCDF:ESACCI-LC-L4-LCCS-Map-300m-P1Y-2010-v2.0.7cds.nc:lccs_class ESACCI-LC-L4-LCCS-Map-300m-P1Y-2010-v2.0.7cds_mode.tif
+
+    gdalwarp -of Gtiff -co COMPRESS=LZW -co TILED=YES -ot Byte -r mode -te -180.0000000 -90.0000000 180.0000000 90.0000000 -tr 0.002777777777778 0.002777777777778 -t_srs EPSG:4326 NETCDF:ESACCI-LC-L4-LCCS-Map-300m-P1Y-2012-v2.0.7cds.nc:lccs_class ESACCI-LC-L4-LCCS-Map-300m-P1Y-2012-v2.0.7cds_mode.tif
+
+    gdalwarp -of Gtiff -co COMPRESS=LZW -co TILED=YES -ot Byte -r mode -te -180.0000000 -90.0000000 180.0000000 90.0000000 -tr 0.002777777777778 0.002777777777778 -t_srs EPSG:4326 NETCDF:ESACCI-LC-L4-LCCS-Map-300m-P1Y-2014-v2.0.7cds.nc:lccs_class ESACCI-LC-L4-LCCS-Map-300m-P1Y-2014-v2.0.7cds_mode.tif

@@ -207,6 +207,12 @@
           
             
                 <li class="">
+                    <a href="day-19.html">Day 19 - NULL Island NoData</a>
+                </li>
+            
+          
+            
+                <li class="">
                     <a href="day-20.html">Day 20 - Population Cartogram of Estonian municipalities</a>
                 </li>
             
@@ -214,6 +220,60 @@
             
                 <li class="">
                     <a href="day-21.html">Day 21 - Water (and Climate Change)</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-22.html">Day 22 - Movement / Mobility in Estonia</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-23.html">Day 23 - Boundaries  #TODO</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-24.html">Day 24 - Elevation</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-25.html">Day 25 - COVID-19  #TODO</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-26.html">Day 26 - Map with a new tool  #TODO</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-27.html">Day 27 - Big or small data  #TODO</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-28.html">Day 28 - Non-geographic map  #TODO</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-29.html">Day 29 - Globe  #TODO</a>
+                </li>
+            
+          
+            
+                <li class="">
+                    <a href="day-30.html">Day 30 - Just a Map again #TODO</a>
                 </li>
             
           
@@ -270,6 +330,44 @@
 <li><p><a class="reference external" href="https://pypi.org/project/pymannkendall/">https://pypi.org/project/pymannkendall/</a></p></li>
 </ul>
 <p>The Jupyter notebook <a class="reference external" href="https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/14/day-14.ipynb">(view here)</a> is provided in my <a class="reference external" href="https://github.com/allixender/30MapChallenge2020/tree/main/14">GitHub repo</a>.</p>
+<p><a class="reference external" href="https://ghrc.nsstc.nasa.gov/hydro/details/AU_SI25_NRT_R04">Alternative - sea ice data visual</a></p>
+<p><a class="reference external" href="https://twitter.com/allixender/status/1332266269400326145">https://twitter.com/allixender/status/1332266269400326145</a></p>
+<p>(Data_archive/data_formats - lab session 2 Map Sea Ice Concentration of 10 days.pdf)</p>
+<ul class="simple">
+<li><p>GET DATA:     <a class="reference external" href="https://lance.nsstc.nasa.gov/amsr2-science/data/level3/seaice25/R04/hdfeos5/">https://lance.nsstc.nasa.gov/amsr2-science/data/level3/seaice25/R04/hdfeos5/</a></p></li>
+<li><p>ALTERNATE ACCESS:     <a class="reference external" href="https://lance.itsc.uah.edu/amsr2-science/data/level3/seaice25/R04/hdfeos5/">https://lance.itsc.uah.edu/amsr2-science/data/level3/seaice25/R04/hdfeos5/</a></p></li>
+<li><p>PROJECT HOME PAGE:    <a class="reference external" href="https://earthdata.nasa.gov/earth-observation-data/near-real-time">https://earthdata.nasa.gov/earth-observation-data/near-real-time</a></p></li>
+<li><p>DOI:  <a class="reference external" href="http://dx.doi.org/10.5067/AMSRU/AU_SI25_NRT_R04">http://dx.doi.org/10.5067/AMSRU/AU_SI25_NRT_R04</a></p></li>
+<li><p>CITING DATA:  <a class="reference external" href="https://ghrc.nsstc.nasa.gov/home/about-ghrc/citing-ghrc-daac-data">https://ghrc.nsstc.nasa.gov/home/about-ghrc/citing-ghrc-daac-data</a></p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">D</span><span class="p">:</span>\<span class="n">data</span>\<span class="n">seaice_example</span>
+
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">nsidc</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">AU_SI25</span><span class="o">/</span><span class="n">versions</span><span class="o">/</span><span class="mi">1</span>
+
+<span class="n">Polar</span> <span class="n">Stereographic</span> <span class="n">South</span> <span class="n">EPSG</span><span class="p">:</span><span class="mi">3412</span>
+
+<span class="n">gdal_translate</span><span class="o">.</span><span class="n">exe</span> <span class="o">-</span><span class="n">of</span> <span class="n">Gtiff</span>  <span class="o">-</span><span class="n">a_srs</span> <span class="s2">&quot;+proj=stere +lat_0=-90 +lat_ts=-70 +lon_0=0 +k=1 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs&quot;</span> <span class="o">-</span><span class="n">a_ullr</span> <span class="o">-</span><span class="mi">3950000</span> <span class="mi">4350000</span> <span class="mi">3950000</span> <span class="o">-</span><span class="mi">3950000</span> <span class="n">HDF5</span><span class="p">:</span><span class="s2">&quot;AMSR_U2_L3_SeaIce25km_R04_20201116.he5&quot;</span><span class="p">:</span><span class="o">//</span><span class="n">HDFEOS</span><span class="o">/</span><span class="n">GRIDS</span><span class="o">/</span><span class="n">SpPolarGrid25km</span><span class="o">/</span><span class="n">Data_Fields</span><span class="o">/</span><span class="n">SI_25km_SH_ICECON_DAY</span> <span class="n">AMSR_U2_L3_SeaIce25km_R04_20201116_icecon_day_3412_tr</span><span class="o">.</span><span class="n">tif</span>
+
+<span class="n">epsg</span><span class="p">:</span><span class="mi">4312</span>
+
+<span class="n">lower</span> <span class="n">left</span> <span class="n">x</span> <span class="o">-</span><span class="mi">3950</span> <span class="n">E</span><span class="p">,</span> <span class="n">y</span> <span class="o">-</span><span class="mi">3950</span> <span class="n">S</span>
+<span class="n">upper</span> <span class="n">left</span> <span class="n">x</span> <span class="o">-</span><span class="mi">3950</span>    <span class="n">ulymap</span> <span class="mi">4350</span>
+
+<span class="n">X</span> <span class="p">(</span><span class="n">km</span><span class="p">)</span>  <span class="n">Y</span> <span class="p">(</span><span class="n">km</span><span class="p">)</span> <span class="n">Latitude</span> <span class="p">(</span><span class="n">deg</span><span class="p">)</span> <span class="n">Longitude</span> <span class="p">(</span><span class="n">deg</span><span class="p">)</span> <span class="n">Pixel</span> <span class="n">Location</span>
+<span class="o">-</span><span class="mi">3950</span>       <span class="mi">4350</span>    <span class="o">-</span><span class="mf">39.23</span>  <span class="mf">317.76</span>  <span class="n">corner</span>
+<span class="mi">0</span>   <span class="mi">4350</span>    <span class="o">-</span><span class="mf">51.32</span>  <span class="mf">0.00</span>    <span class="n">midpoint</span>
+<span class="mi">3950</span>        <span class="mi">4350</span>    <span class="o">-</span><span class="mf">39.23</span>  <span class="mf">42.24</span>   <span class="n">corner</span>
+<span class="mi">3950</span>        <span class="mi">0</span>       <span class="o">-</span><span class="mf">54.66</span>  <span class="mf">90.00</span>   <span class="n">midpoint</span>
+<span class="mi">3950</span>        <span class="o">-</span><span class="mi">3950</span>   <span class="o">-</span><span class="mf">41.45</span>  <span class="mf">135.00</span>  <span class="n">corner</span>
+<span class="mi">0</span>   <span class="o">-</span><span class="mi">3950</span>   <span class="o">-</span><span class="mf">54.66</span>  <span class="mf">180.00</span>  <span class="n">midpoint</span>
+<span class="o">-</span><span class="mi">3950</span>       <span class="o">-</span><span class="mi">3950</span>   <span class="o">-</span><span class="mf">41.45</span>  <span class="mf">225.00</span>  <span class="n">corner</span>
+<span class="o">-</span><span class="mi">3950</span>       <span class="mi">0</span>       <span class="o">-</span><span class="mf">54.66</span>  <span class="mf">270.00</span>  <span class="n">midpoint</span>
+
+<span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">stere</span> <span class="o">+</span><span class="n">lat_0</span><span class="o">=-</span><span class="mi">90</span> <span class="o">+</span><span class="n">lat_ts</span><span class="o">=-</span><span class="mi">70</span> <span class="o">+</span><span class="n">lon_0</span><span class="o">=</span><span class="mi">0</span> <span class="o">+</span><span class="n">k</span><span class="o">=</span><span class="mi">1</span> <span class="o">+</span><span class="n">x_0</span><span class="o">=</span><span class="mi">0</span> <span class="o">+</span><span class="n">y_0</span><span class="o">=</span><span class="mi">0</span> <span class="o">+</span><span class="n">a</span><span class="o">=</span><span class="mi">6378273</span> <span class="o">+</span><span class="n">b</span><span class="o">=</span><span class="mf">6356889.449</span> <span class="o">+</span><span class="n">units</span><span class="o">=</span><span class="n">m</span> <span class="o">+</span><span class="n">no_defs</span>
+
+<span class="o">-</span><span class="n">a_ullr</span> <span class="o">-</span><span class="mi">3950000</span> <span class="mi">4350000</span> <span class="mi">3950000</span> <span class="o">-</span><span class="mi">3950000</span>
+</pre></div>
+</div>
 </div>
 </div>
 

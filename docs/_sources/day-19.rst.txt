@@ -1,12 +1,12 @@
-Day 19 - NULL
+Day 19 - NULL Island NoData
 ------------------------------------------------
 
-.. image:: _static/topi_orig.jpg
-
-https://twitter.com/tjukanov/status/1311568912950140930
+.. image:: _static/day-19-null.png
 
 Data
 ~~~~
+
+No :-)
 
 Geopandas plot NoData https://geopandas.readthedocs.io/en/latest/docs/user_guide/mapping.html#missing-data
 

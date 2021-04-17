@@ -22,16 +22,11 @@ Posts
    day-15
    day-17
    day-18
+   day-19
    day-20
    day-21
-
-..
-   _commented out
-   day-19
-
    day-22
    day-23
-
    day-24
    day-25
    day-26

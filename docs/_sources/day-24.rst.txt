@@ -1,13 +1,16 @@
 Day 24 - Elevation
---------------------------------------------------------
+------------------
 
-.. image:: _static/topi_orig.jpg
+DEM shading of Mars (the red planet)
+====================================
 
-https://twitter.com/tjukanov/status/1311568912950140930
+.. image:: _static/day-06-red.png
 
-Data
-~~~~
+`day-06.html <day-06.html>`_
 
+Day 11 - 3D Elevation as scientific surface plot
+================================================
 
+.. image:: _static/day-11-3d.png
 
-The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/24/day-24.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/24>`_.
+`day-11.html <day-11.html>`_

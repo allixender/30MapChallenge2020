@@ -26,4 +26,4 @@ Then I used `Rasterio <https://rasterio.readthedocs.io/en/latest/>`_ and `Raster
 
 Eventually I used `GeoViews <https://geoviews.org/>`_ to provide a static orthographic (say globe) basemap view.
 
-The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/04/day-04.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/04>`_.
+The Jupyter notebook `(view here) <https://nbviewer.jupyter.org/github/allixender/30MapChallenge2020/blob/main/04/day-04-hexa.ipynb>`_ is provided in my `GitHub repo <https://github.com/allixender/30MapChallenge2020/tree/main/04>`_.
