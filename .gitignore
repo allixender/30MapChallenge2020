@@ -184,3 +184,6 @@ dggrid_layers.gpkg
 
 14/*.gzip
 14/*.csv
+
+21/*.gzip
+21/*.csv

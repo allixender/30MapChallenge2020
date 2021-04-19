@@ -22,7 +22,7 @@ copyright = "2020, Alexander Kmoch"
 author = "Alexander Kmoch"
 
 # The full version, including alpha/beta/rc tags
-release = "2020.01"
+release = "2021.04"
 
 
 # -- General configuration ---------------------------------------------------
