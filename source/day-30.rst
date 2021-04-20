@@ -1,11 +1,9 @@
 Day 30 - A Map (multi elements: NDVI, DEM hillshade and spatial points query
 ----------------------------------------------------------------------------
 
-NDVI and species observations overlayed on top of a hillshade (DEM)
+NDVI and species observations overlaid on top of a hillshade (DEM)
 
-.. image:: _static/topi_orig.jpg
-
-https://twitter.com/tjukanov/status/1311568912950140930
+.. image:: _static/day-30-map.png
 
 Data
 ~~~~
