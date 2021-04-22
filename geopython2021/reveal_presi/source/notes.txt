@@ -1,0 +1,8 @@
+```rst
+
+.. revealjs_break::
+    :notitle:
+    :data-background-image: _images/eesti_ut.png
+    :data-background-size: contain
+
+```

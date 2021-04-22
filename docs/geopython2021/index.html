@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>30 Maps in 30 Days</title>
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/revealjs4/dist/reveal.css" />
+    <link rel="stylesheet" href="_static/revealjs4/dist/theme/league.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    
+
+  </head><body>
+    <div class="reveal">
+        <div class="slides">
+            <section >
+<h1>30 Maps in 30 Days</h1>
+<p>with Python</p>
+<a class="reference internal image-reference" href="_images/geopython2021.png"><img alt="_images/geopython2021.png" src="_images/geopython2021.png" style="width: 496.0px; height: 108.60000000000001px;" /></a>
+</section>
+<section >
+<h2>Alexander Kmoch</h2>
+<a class="reference internal image-reference" href="_images/eesti_ut.png"><img alt="_images/eesti_ut.png" src="_images/eesti_ut.png" style="width: 304.8px; height: 360.0px;" /></a>
+<ul class="simple">
+<li><p>Research Fellow</p></li>
+<li><p>Department of Geography</p></li>
+<li><p>University of Tartu, Estonia</p></li>
+<li><p><a class="reference external" href="https://kodu.ut.ee/~kmoch/">https://kodu.ut.ee/~kmoch/</a></p></li>
+</ul>
+</section>
+<section >
+<ul class="simple">
+<li><p>Topi &amp; Challenge</p></li>
+<li><p>Map themes</p></li>
+<li><p>Concepts</p></li>
+<li><p>Libraries</p></li>
+<li><p>Lessons learned</p></li>
+</ul>
+</section>
+<section >
+<h2>Topi Tjukanov</h2>
+<p><a class="reference external" href="https://tjukanov.org/">https://tjukanov.org/</a></p>
+<a class="reference internal image-reference" href="_images/topi_web.png"><img alt="_images/topi_web.png" src="_images/topi_web.png" style="width: 360.0px; height: 360.0px;" /></a>
+</section>
+<section >
+<h2>Topi Tjukanov</h2>
+<p><a class="reference external" href="https://twitter.com/tjukanov">&#64;tjukanov</a></p>
+<a class="reference internal image-reference" href="_images/topi_twitter.png"><img alt="_images/topi_twitter.png" src="_images/topi_twitter.png" style="width: 421.4px; height: 305.2px;" /></a>
+</section>
+<section >
+<p><a class="reference external" href="https://twitter.com/hashtag/30DayMapChallenge">https://twitter.com/hashtag/30DayMapChallenge</a></p>
+<a class="reference internal image-reference" href="_images/mapchallenge.png"><img alt="_images/mapchallenge.png" src="_images/mapchallenge.png" style="width: 768.0px; height: 432.0px;" /></a>
+</section>
+<section >
+<h2>Somebody even made an inventory</h2>
+<p><a class="reference external" href="https://david.frigge.nz/30DayMapChallenge2020/">https://david.frigge.nz/30DayMapChallenge2020/</a></p>
+<ul class="simple">
+<li><p>2019: at least 631 people tweeting on the hashtag / indexed 3484 maps by 414 people.
+- 25 people creating all 30 maps</p></li>
+<li><p>2020: at least 1378 people tweeting on the hashtag. / indexed 6882 maps by 797 people.
+- 67 people creating all 30 maps</p></li>
+</ul>
+</section>
+<section data-background-iframe="https://pyviz.org/tools.html" data-background-interactive>
+<h2>Geospatial Python and Pyviz FTW</h2>
+</section>
+<section >
+<p><a class="reference external" href="https://allixender.github.io/30MapChallenge2020/">https://allixender.github.io/30MapChallenge2020/</a></p>
+<ul class="simple">
+<li><p>Github repo</p></li>
+<li><p>Sphinx :-)</p></li>
+<li><p>Notebooks + (most) data, at least data cites</p></li>
+<li><p>reproducible</p></li>
+</ul>
+</section>
+<section >
+<h2>Challenges</h2>
+<p><strong>Idea + Data + Skill → Good Map</strong></p>
+<ul class="simple">
+<li><p>Open Data related to themes (cool idea?)</p></li>
+<li><p>Too much/big data hard to effectively churn into a nice map</p></li>
+<li><p>Styling options (existing vs. known vs. skill)</p></li>
+</ul>
+</section>
+<section >
+<h2>Concepts</h2>
+<ul class="simple">
+<li><p>data acquisition</p></li>
+<li><p>pre-processing</p></li>
+<li><p>spatial analysis (sometimes)</p></li>
+<li><p>plotting and styling</p></li>
+</ul>
+</section>
+<section >
+<h2>Libraries and how I used them</h2>
+<p><strong>produce the image</strong></p>
+<ul class="simple">
+<li><p>Geopandas.plot aka Matplotlib - 11</p></li>
+<li><p>GeoPlot - 5</p></li>
+<li><p>GeoViews / cartopy - 4</p></li>
+<li><p>EarthPy - 4</p></li>
+<li><p>Python PILLOW, raw image/gifs - 3</p></li>
+<li><p>Datashader - 2</p></li>
+<li><p>folium - 1</p></li>
+</ul>
+</section>
+<section >
+<h2>Libraries and how I used them</h2>
+<p><strong>data acquisition and pre-processing</strong></p>
+<ul class="simple">
+<li><p>Geopandas</p></li>
+<li><p>Rasterio/GDAL</p></li>
+<li><p>Contextily (as a basemap)</p></li>
+<li><p>requests / urllib.requests</p></li>
+<li><p>Owslib</p></li>
+<li><p>osmnx</p></li>
+</ul>
+</section>
+<section >
+<h2>Libraries and how I used them</h2>
+<p><strong>spatial analysis</strong></p>
+<ul class="simple">
+<li><p>Shapely/Geopandas clip, sjoin or otherwise subselect - 7</p></li>
+<li><p>Pysal (MapClassify) - 6</p></li>
+<li><p>GeoPlot functions (KDE, cartogram) - 4</p></li>
+<li><p>EarthPy (Hillshade) - 3</p></li>
+<li><p>DGGS grids - 3</p></li>
+<li><p>pysheds - 1</p></li>
+<li><p>idw_knn interpolation - 1</p></li>
+<li><p>pymannkendall - 1</p></li>
+</ul>
+</section>
+<section >
+<h2>Libraries and how I used them</h2>
+<p><strong>number of layers</strong></p>
+<img alt="_images/numcounts.png" src="_images/numcounts.png" />
+</section>
+<section >
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="_images/day-01-points.png"><img alt="_images/day-01-points.png" src="_images/day-01-points.png" style="width: 572.8000000000001px; height: 329.6px;" /></a>
+<p class="caption"><span class="caption-text">Classic Points: Estonian State Forest Management Centre (RMK) public recreations sites</span></p>
+</div>
+</section>
+<section data-background-color="#FFFFFF">
+<div class="figure align-default" id="id2">
+<a class="reference internal image-reference" href="_images/day-18-landcover.png"><img alt="_images/day-18-landcover.png" src="_images/day-18-landcover.png" style="width: 518.8000000000001px; height: 354.40000000000003px;" /></a>
+<p class="caption"><span class="caption-text">Classic GIS: Landuse Copernicus C3S Landcover for Estonia</span></p>
+</div>
+</section>
+<section >
+<div class="figure align-default" id="id3">
+<a class="reference internal image-reference" href="_images/day-29-globe.png"><img alt="_images/day-29-globe.png" src="_images/day-29-globe.png" style="width: 309.5px; height: 309.5px;" /></a>
+<p class="caption"><span class="caption-text">Natural Earth population as Globe with GeoViews</span></p>
+</div>
+</section>
+<section >
+<div class="figure align-default" id="id4">
+<a class="reference internal image-reference" href="_images/day-04-hexa.png"><img alt="_images/day-04-hexa.png" src="_images/day-04-hexa.png" style="width: 309.5px; height: 309.5px;" /></a>
+<p class="caption"><span class="caption-text">Hexagons: NASA GPWv4 global population density in ISEAH7 DGGS Hexagons</span></p>
+</div>
+</section>
+<section >
+<div class="figure align-default" id="id5">
+<a class="reference internal image-reference" href="_images/day-10-grids.png"><img alt="_images/day-10-grids.png" src="_images/day-10-grids.png" style="width: 420.40000000000003px; height: 406.0px;" /></a>
+<p class="caption"><span class="caption-text">Grids - comparison of different global grid systems (H3, rHealPix, dggrid4py)</span></p>
+</div>
+</section>
+<section data-background-color="#FFFFFF">
+<div class="figure align-default" id="id6">
+<a class="reference internal image-reference" href="_images/day-06-red.png"><img alt="_images/day-06-red.png" src="_images/day-06-red.png" style="width: 752.0px; height: 369.0px;" /></a>
+<p class="caption"><span class="caption-text">Red DEM shading of Mars (EarthPy)</span></p>
+</div>
+</section>
+<section >
+<div class="figure align-default" id="id7">
+<a class="reference internal image-reference" href="_images/day-11-3d.png"><img alt="_images/day-11-3d.png" src="_images/day-11-3d.png" style="width: 775.0px; height: 297.5px;" /></a>
+<p class="caption"><span class="caption-text">3D Elevation as scientific surface plot</span></p>
+</div>
+</section>
+<section data-background-color="#FFFFFF">
+<div class="figure align-default" id="id8">
+<a class="reference internal image-reference" href="_images/day-09_monochrome.png"><img alt="_images/day-09_monochrome.png" src="_images/day-09_monochrome.png" style="width: 342.59999999999997px; height: 280.8px;" /></a>
+<p class="caption"><span class="caption-text">Monochrome theme: Stream Delineation with PySheds</span></p>
+</div>
+</section>
+<section data-background-color="#FFFFFF">
+<div class="figure align-default" id="id9">
+<a class="reference internal image-reference" href="_images/day-21-water.png"><img alt="_images/day-21-water.png" src="_images/day-21-water.png" style="width: 489.6px; height: 460.8px;" /></a>
+<p class="caption"><span class="caption-text">Trends in River flows in Estonia (pymannkendall)</span></p>
+</div>
+</section>
+<section >
+<div class="figure align-default" id="id10">
+<a class="reference internal image-reference" href="_images/antartica-10-days.gif"><img alt="_images/antartica-10-days.gif" src="_images/antartica-10-days.gif" style="width: 504.0px; height: 432.0px;" /></a>
+<p class="caption"><span class="caption-text">Change of Sea ice extent around Antarctica Nov. 2020</span></p>
+</div>
+</section>
+<section >
+<div class="figure align-default" id="id11">
+<a class="reference internal image-reference" href="_images/day-17-historical.gif"><img alt="_images/day-17-historical.gif" src="_images/day-17-historical.gif" style="width: 518.4px; height: 345.59999999999997px;" /></a>
+<p class="caption"><span class="caption-text">Historical Maps of the Estonian Island of Vormsi - Owslib WMS</span></p>
+</div>
+</section>
+<section >
+<div class="figure align-default" id="id12">
+<a class="reference internal image-reference" href="_images/day-05-blue.png"><img alt="_images/day-05-blue.png" src="_images/day-05-blue.png" style="width: 593.0px; height: 333.0px;" /></a>
+<p class="caption"><span class="caption-text">GeoPlot KDE - Blue Cornflower distribution</span></p>
+<div class="legend">
+<p>The Blue Cornflower is also a National Estonian symbol.</p>
+</div>
+</div>
+</section>
+<section data-background-color="#FFFFFF">
+<div class="figure align-default" id="id13">
+<a class="reference internal image-reference" href="_images/day-27-bigsmall.png"><img alt="_images/day-27-bigsmall.png" src="_images/day-27-bigsmall.png" style="width: 591.0px; height: 369.0px;" /></a>
+<p class="caption"><span class="caption-text">Big or (and) small: Place names containing <em>big</em> / <em>small</em></span></p>
+</div>
+</section>
+<section data-background-color="#FFFFFF">
+<div class="figure align-default" id="id14">
+<a class="reference internal image-reference" href="_images/day-23-boundaries.png"><img alt="_images/day-23-boundaries.png" src="_images/day-23-boundaries.png" style="width: 711.6px; height: 384.59999999999997px;" /></a>
+<p class="caption"><span class="caption-text">GeoPlot Cartograms: Boundaries as global countries bboxes</span></p>
+</div>
+</section>
+<section >
+<h2>Day 26 - Map with a new tool</h2>
+<p>#TODO</p>
+</section>
+<section >
+<h2>Day 28 - Non-geographic map</h2>
+<p>#TODO</p>
+</section>
+<section >
+<div class="figure align-default" id="id15">
+<a class="reference internal image-reference" href="_images/day-19-null.png"><img alt="_images/day-19-null.png" src="_images/day-19-null.png" style="width: 414.5px; height: 422.5px;" /></a>
+<p class="caption"><span class="caption-text">NULL Island NoData</span></p>
+</div>
+</section>
+<section data-background-color="#000000">
+<div class="figure align-default" id="id16">
+<a class="reference internal image-reference" href="_images/day-02-river-lines.png"><img alt="_images/day-02-river-lines.png" src="_images/day-02-river-lines.png" style="width: 640.0px; height: 416.0px;" /></a>
+<p class="caption"><span class="caption-text">Datashader: Estonian rivers and streams by from Estonian Landboard (Maa-Amet)</span></p>
+</div>
+</section>
+<section data-background-color="#000000">
+<div class="figure align-default" id="id17">
+<a class="reference internal image-reference" href="_images/day-22-movement.png"><img alt="_images/day-22-movement.png" src="_images/day-22-movement.png" style="width: 480.0px; height: 360.0px;" /></a>
+<p class="caption"><span class="caption-text">Datashader - Movement / Mobility in Estonia</span></p>
+</div>
+</section>
+<section data-background-color="#000000">
+<div class="figure align-default" id="id18">
+<a class="reference internal image-reference" href="_images/day-07-green.png"><img alt="_images/day-07-green.png" src="_images/day-07-green.png" style="width: 490.8px; height: 486.40000000000003px;" /></a>
+<p class="caption"><span class="caption-text">Green Radar Style Buildings Footprint (OSMNX)</span></p>
+</div>
+</section>
+<section data-background-color="#000000">
+<div class="figure align-default" id="id19">
+<a class="reference internal image-reference" href="_images/day-12-ascii-globe.png"><img alt="_images/day-12-ascii-globe.png" src="_images/day-12-ascii-globe.png" style="width: 511.20000000000005px; height: 509.20000000000005px;" /></a>
+<p class="caption"><span class="caption-text">Map not made with GIS software (ASCII art)</span></p>
+</div>
+</section>
+<section >
+<h2>Conclusions</h2>
+<p>It was awesome!</p>
+<p>It was slightly insane.</p>
+<p>I learned sooo much!</p>
+<p>Gotta do it again.</p>
+</section>
+<section >
+<p>Thanks.</p>
+<p><a class="reference external" href="mailto:alexander&#46;kmoch&#37;&#52;&#48;ut&#46;ee">alexander<span>&#46;</span>kmoch<span>&#64;</span>ut<span>&#46;</span>ee</a></p>
+<p>twitter.com/allixender</p>
+<p>twitter.com/lgeoinformatics</p>
+<img alt="_images/utgeo.png" src="_images/utgeo.png" />
+</section>
+
+        </div>
+    </div>
+    
+    <script src="_static/revealjs4/dist/reveal.js"></script>
+    
+    
+      <script src="_static/revealjs4/plugin/notes/notes.js"></script>
+      
+    
+    <script>
+        var revealjsConfig = new Object();
+        
+        
+        
+        
+          revealjsConfig.plugins = [
+            RevealNotes,
+          ];
+        
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize(revealjsConfig);
+    </script>
+
+  </body>
+</html>
