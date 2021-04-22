@@ -18,6 +18,8 @@ Welcome to my 30-day Map Challenge repo
    posts
 
 
+- GeoPython 2021 - `"30 Maps in 30 Days with Python" <geopython2021/index.html>`_
+
 Indices and tables
 ==================
 

@@ -32,6 +32,8 @@ goto end
 
 :unis
 C:\ProgramData\chocolatey\bin\unison-2.48.4-text -auto -batch -force newer build\html\ docs\
+C:\ProgramData\chocolatey\bin\unison-2.48.4-text -auto -batch -force newer geopython2021\reveal_presi\build\revealjs\ docs\geopython2021\
+touch docs\.nojekyll
 goto end
 
 :help
